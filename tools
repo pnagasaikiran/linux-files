@@ -1,0 +1,19 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+sudo apt install vim
+sudo apt install ctags
+sudo apt install tmux
+sudo apt install dtach
+sudo apt install dstat
+sudo apt install nmap
+sudo apt install silversearcher-ag
+mkdir -p ~/src/github.com/powerline/
+cd ~/src/github.com/powerline/
+git clone https://github.com/powerline/fonts
+cd fonts/
+./install.sh
+
+git clone https://github.com/tomnomnom/dotfiles
+sudo ./go-setup.sh
+
